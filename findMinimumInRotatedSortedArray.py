@@ -5,6 +5,7 @@
 # by looking at the problem, we can determine that the minimum element will always lie in within the unsorted portion of the array.
 # First we will determine which portion of the array is sorted, and then move towards the unsorted portion, until we come across the minimum element.
 
+from typing import List
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         n = len(nums)-1
